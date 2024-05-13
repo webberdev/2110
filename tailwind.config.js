@@ -6,7 +6,19 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        pBlue: {
+          100: '#174DFF',
+        },
+        pOrange: {
+          100: '#FFC917',
+        },
+        pGreen: {
+          100: '17FF55',
+        },
+      },
+    },
   },
   plugins: [],
 };

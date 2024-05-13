@@ -17,53 +17,47 @@ export default function NavBar() {
   }
 
   return (
-    <header className="bg-white">
-      <nav className="flex justify-between items-center w-[92%]  mx-auto">
-        <div>
-          <Image className="w-20 cursor-pointer" src={logo} alt="..." />
-        </div>
-        <div
-          className={`nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 ${vertical ? 'top-[9%]' : 'top-[-100%]'} md:w-auto  w-full flex items-center px-5`}>
-          <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
-            <li>
-              <a className="hover:text-gray-500" href="#">
-                Products
-              </a>
-            </li>
-            <li>
-              <a className="hover:text-gray-500" href="#">
-                Solution
-              </a>
-            </li>
-            <li>
-              <a className="hover:text-gray-500" href="#">
-                Resource
-              </a>
-            </li>
-            <li>
-              <a className="hover:text-gray-500" href="#">
-                Developers
-              </a>
-            </li>
-            <li>
-              <a className="hover:text-gray-500" href="#">
-                Pricing
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div className="flex items-center gap-6">
-          <button className="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]">
-            Sign in
-          </button>
-          <Image
-            src={menu}
-            onClick={onToggleMenu}
-            name="menu"
-            className="w-6 cursor-pointer md:hidden"
-          />
-        </div>
-      </nav>
-    </header>
+    <nav className="flex justify-between items-center w-[92%]  mx-auto">
+      <div>
+        <Image className="w-20 cursor-pointer" src={logo} alt="..." />
+      </div>
+      <div
+        className={`nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 ${vertical ? 'top-[12%]' : 'top-[-100%]'} md:w-auto  w-full flex items-center px-5`}>
+        <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
+          <li>
+            <a className="hover:text-gray-500" href="#">
+              Home
+            </a>
+          </li>
+          <li>
+            <a className="hover:text-gray-500" href="#">
+              About Us
+            </a>
+          </li>
+          <li>
+            <a className="hover:text-gray-500" href="#">
+              Drivers
+            </a>
+          </li>
+          <li>
+            <a className="hover:text-gray-500" href="#">
+              Riders
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div className="flex items-center gap-6">
+        <button className="bg-pOrange-100 text-white px-4 py-1 rounded-full hover:bg-[#fbde89] transition-all">
+          Sign in
+        </button>
+        <Image
+          src={menu}
+          onClick={onToggleMenu}
+          name="menu"
+          alt="Menu"
+          className="w-6 cursor-pointer md:hidden"
+        />
+      </div>
+    </nav>
   );
 }
