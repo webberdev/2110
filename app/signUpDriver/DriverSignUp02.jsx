@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function DriverSignUp02() {
   return (
-    <div className="transition-opacity duration-500 opacity-100">
+    <div className="transition-opacity duration-500 opacity-100 fade-in-2s">
       <h1 className="font-bold text-2xl mb-3 ">Add Car Details</h1>
       <div className="mb-5">
         <label

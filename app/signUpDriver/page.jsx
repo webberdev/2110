@@ -3,15 +3,23 @@ import { useState } from 'react';
 import '../globals.css';
 import DriverSignUp01 from './DriverSignUp01';
 import DriverSignUp02 from './DriverSignUp02';
+import { useRouter } from 'next/navigation';
 
 export default function DriverSignUP() {
+  const route = useRouter();
+
   const [page, setPage] = useState(1);
+
   const handleSubmit = (e) => {
     e.preventDefault();
     if (page === 1) {
       setPage(2);
     }
+    if (page == 2) {
+      route.push('/dashDriver');
+    }
   };
+
   return (
     <div>
       <article className="max-w-lg mx-auto">
