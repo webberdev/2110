@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function DriverSignUp02() {
   return (
-    <div>
-      <h1 className="font-bold text-2xl mb-3">Add Car Details</h1>
+    <div className="transition-opacity duration-500 opacity-100">
+      <h1 className="font-bold text-2xl mb-3 ">Add Car Details</h1>
       <div className="mb-5">
         <label
           htmlFor="car-make"
