@@ -13,7 +13,7 @@ export default function Home() {
           </h1>
           <div className="bg-pBlue-100 h-2 w-40 mb-5"></div>
           <p className="text-sm w-[40%] sm:w-[30%]">
-            Lorem Ipsum has been the industry's standard dummy text ever since
+            Lorem Ipsum has been the industrys standard dummy text ever since
             the 1500s, when an unknown printer took a galley of type and
             scrambled it to make a type specimen book.
           </p>
@@ -31,7 +31,7 @@ export default function Home() {
           <p className="text-center">Car Shar For Everyone</p>
           <div className="bg-pOrange-100 h-2 w-40 mb-5"></div>
           <p className="text-sm w-[40%] sm:w-[30%]">
-            Lorem Ipsum has been the industry's standard dummy text ever since
+            Lorem Ipsum has been the industrys standard dummy text ever since
             the 1500s, when an unknown printer took a galley of type and
             scrambled it to make a type specimen book.
           </p>
@@ -48,7 +48,7 @@ export default function Home() {
           </h1>
           <div className="bg-pGreen-100 h-2 w-40 mb-5"></div>
           <p className="text-sm w-[-40%] w-[30%] text-right ml-auto">
-            Lorem Ipsum has been the industry's standard dummy text ever since
+            Lorem Ipsum has been the industrys standard dummy text ever since
             the 1500s, when an unknown printer took a galley of type and
             scrambled it to make a type specimen book.
           </p>
