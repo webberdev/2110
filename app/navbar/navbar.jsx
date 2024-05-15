@@ -25,7 +25,7 @@ export default function NavBar() {
         className={`nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 ${vertical ? 'top-[5%]' : 'top-[-100%]'} md:w-auto  w-full flex items-center px-5`}>
         <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
           <li>
-            <a className="hover:text-gray-500" href="#">
+            <a className="hover:text-gray-500" href="/">
               Home
             </a>
           </li>
@@ -35,8 +35,8 @@ export default function NavBar() {
             </a>
           </li>
           <li>
-            <a className="hover:text-gray-500" href="#">
-              Drivers
+            <a className="hover:text-gray-500" href="/signUpDriver">
+              Drivers Sign Up
             </a>
           </li>
           <li>

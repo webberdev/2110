@@ -45,8 +45,7 @@ export default function CreateTrip() {
           </button>
         </form>
 
-        <div
-          className={`${page === 1 && 'hidden'} fade-in-1s max-w-sm mx-auto mt-3`}>
+        <div className={`${page === 1 && 'hidden'} max-w-sm mx-auto mt-3`}>
           <ConfirmTrip />
         </div>
       </article>
