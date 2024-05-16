@@ -7,7 +7,7 @@ import pro03 from './img/profile03.png';
 
 export default function TripCard() {
   return (
-    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-xl transition-all">
       <a href="#">
         <Image class="rounded-t-lg" src={map01} alt="" />
       </a>

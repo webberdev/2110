@@ -40,8 +40,13 @@ export default function NavBar() {
             </a>
           </li>
           <li>
-            <a className="hover:text-gray-500" href="#">
-              Riders
+            <a className="hover:text-gray-500" href="/signUpRider">
+              Riders Sign Up
+            </a>
+          </li>
+          <li>
+            <a className="hover:text-gray-500" href="/profileDriver">
+              Test
             </a>
           </li>
         </ul>
