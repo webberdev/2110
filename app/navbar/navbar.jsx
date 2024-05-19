@@ -45,7 +45,7 @@ export default function NavBar() {
             </a>
           </li>
           <li>
-            <a className="hover:text-gray-500" href="/profileDriver">
+            <a className="hover:text-gray-500" href="/arrival">
               Test
             </a>
           </li>
