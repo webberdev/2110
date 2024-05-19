@@ -7,7 +7,7 @@ export default function DriverSignUp01() {
       <div className="mb-5">
         <label
           htmlFor="username"
-          className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+          className="block mb-2 text-sm font-medium text-gray-900 ">
           Full Name
         </label>
         <input
@@ -33,7 +33,7 @@ export default function DriverSignUp01() {
       <div className="mb-5">
         <label
           htmlFor="password"
-          className="block mb-2 text-sm font-medium text-gray-800 dark:text-white">
+          className="block mb-2 text-sm font-medium text-gray-800 text-black">
           Password
         </label>
         <input
@@ -45,7 +45,7 @@ export default function DriverSignUp01() {
       <div className="mb-5">
         <label
           htmlFor="email"
-          className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+          className="block mb-2 text-sm font-medium text-gray-900 ">
           Phone
         </label>
         <input

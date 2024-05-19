@@ -4,13 +4,13 @@ import map01 from './img/map01.png';
 
 export default function TripCard() {
   return (
-    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-xl transition-all">
+    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow hover:shadow-xl transition-all">
       <a href="#">
         <Image className="rounded-t-lg" src={map01} alt="" />
       </a>
       <div className="p-5">
         <div className="flex">
-          <h5 className="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white mr-auto">
+          <h5 className="mb-2 text-3xl font-bold tracking-tight text-gray-900 mr-auto">
             Trip 1
           </h5>
           <div className="flex flex-row gap-1"></div>

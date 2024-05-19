@@ -7,7 +7,7 @@ export default function DriverSignUp02() {
       <div className="mb-5">
         <label
           htmlFor="car-make"
-          className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+          className="block mb-2 text-sm font-medium text-gray-900 ">
           Make
         </label>
         <input
@@ -20,7 +20,7 @@ export default function DriverSignUp02() {
       <div className="mb-5">
         <label
           htmlFor="model"
-          className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+          className="block mb-2 text-sm font-medium text-gray-900 ">
           Model
         </label>
         <input
@@ -33,7 +33,7 @@ export default function DriverSignUp02() {
       <div className="mb-5">
         <label
           htmlFor="colour"
-          className="block mb-2 text-sm font-medium text-gray-800 dark:text-white">
+          className="block mb-2 text-sm font-medium text-gray-800 ">
           Colour
         </label>
         <input
@@ -46,7 +46,7 @@ export default function DriverSignUp02() {
       <div className="mb-5">
         <label
           htmlFor="email"
-          className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+          className="block mb-2 text-sm font-medium text-gray-900 ">
           Registration Plate
         </label>
         <input
@@ -59,7 +59,7 @@ export default function DriverSignUp02() {
       <div className="mb-5">
         <label
           htmlFor="capacity"
-          className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+          className="block mb-2 text-sm font-medium text-gray-900 ">
           Passenger Capacity
         </label>
         <input

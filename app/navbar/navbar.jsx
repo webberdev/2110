@@ -4,6 +4,7 @@ import Image from 'next/image';
 import logo from './graphics/logo.png';
 import menu from './graphics/menu-outline.svg';
 import NavLink from 'next/link';
+import Link from 'next/link';
 
 export default function NavBar() {
   const [vertical, setVertical] = useState(false);
@@ -19,7 +20,10 @@ export default function NavBar() {
   return (
     <nav className="flex justify-between items-center w-[92%]  mx-auto">
       <div>
+        <Link href="/">
         <Image className="w-20 cursor-pointer" src={logo} alt="..." />
+        </Link>
+
       </div>
       <div
         className={`nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 ${vertical ? 'top-[5%]' : 'top-[-100%]'} md:w-auto  w-full flex items-center px-5`}>
@@ -42,11 +46,6 @@ export default function NavBar() {
           <li>
             <a className="hover:text-gray-500" href="/signUpRider">
               Riders Sign Up
-            </a>
-          </li>
-          <li>
-            <a className="hover:text-gray-500" href="/arrival">
-              Test
             </a>
           </li>
         </ul>

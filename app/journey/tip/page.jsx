@@ -19,7 +19,7 @@ export default function profileDriver() {
             <h5 className="-mb-1 text-2xl font-bold tracking-tight text-gray-900">
               Anne Grande
             </h5>
-            <p className="mb-1 font-normal text-gray-700 dark:text-gray-400">
+            <p className="mb-1 font-normal text-gray-700 ">
               Hi there, nice to meet you
             </p>
             <Image src={starRating} className="w-24" />
@@ -29,7 +29,7 @@ export default function profileDriver() {
               <div className="mb-5">
                 <label
                   htmlFor="email"
-                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+                  className="block mb-2 text-sm font-medium text-gray-900 ">
                   Tip Amount
                 </label>
                 <input
@@ -42,7 +42,7 @@ export default function profileDriver() {
               <div className="mb-5">
                 <label
                   htmlFor="email"
-                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+                  className="block mb-2 text-sm font-medium text-gray-900 ">
                   Rating
                 </label>
                 <input

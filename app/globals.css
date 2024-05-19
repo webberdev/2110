@@ -11,6 +11,10 @@
   }
 }
 
+body{
+  background-color: white;
+}
+
 .fade-in-1s {
   animation: fadeIn 1s;
 }
