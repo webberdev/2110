@@ -14,6 +14,14 @@ export default function WorkAround() {
   return (
     <div className="max-w-max mx-auto">
       <div className="w-full">
+        <Link
+          href="/journey"
+          className="mb-3 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-green-600 rounded-lg hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
+          Scheduled Trips &nbsp; &nbsp;
+          <div className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-orange-600">
+            1
+          </div>
+        </Link>
         <h1 className="text-3xl font-bold mb-4 mt-6">
           Search Trips In Your Area
         </h1>
